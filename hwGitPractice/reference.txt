@@ -9,3 +9,5 @@ reset: (HEAD: unstages file changes in staging area), (SHA: reset to previous co
 diff: shoes difference bwetweeen working directory and staging area
 status: inspects contents of working and staging area
 log: shows list of all previous commits
+
+asiudhawuofshapiosfhaoefh
