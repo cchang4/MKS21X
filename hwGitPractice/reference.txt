@@ -1,13 +1,11 @@
-git config --global user.name "Real Name"
-git config --global user.email realName23@example.com
-git init
-git status
-git add filename
-git diff filename
-git commit -m "comment"
-git log
-git show HEAD
-git checkout HEAD filename
-git add filename_1 filename_2
-git reset HEAD filename
-git reset safuh
+clone
+add
+commit
+push
+pull
+show
+checkout
+reset
+diff
+status
+log
