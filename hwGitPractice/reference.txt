@@ -1,11 +1,11 @@
-clone
-add
-commit
-push
-pull
-show
-checkout
-reset
-diff
-status
-log
+clone: download a local copy of the repository 
+add: add file to staging area
+commit: permanantly stores changes from staging area inside repository
+push: send changes to remote repository
+pull: update local repository to newest commit
+show: shows 1+ objects (blobs, trees, tags, commits), (commits: log message, textual diff, merge commit in special format), (tags: tag message, referenced objects), (trees: names), (plain blobs: plain contents)
+checkout: discards changes in working directory
+reset: (HEAD: unstages file changes in staging area), (SHA: reset to previous commit in commit history)
+diff: shoes difference bwetweeen working directory and staging area
+status: inspects contents of working and staging area
+log: shows list of all previous commits
