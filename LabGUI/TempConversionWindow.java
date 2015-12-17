@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class TempConversionWindow extends JFrame implements ActionListener{
+public class TempConversionWindow extends JFrame{
     private Container pane;
     private JLabel j;
     private JTextField t;
