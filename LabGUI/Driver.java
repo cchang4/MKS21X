@@ -1,5 +1,8 @@
 public class Driver{
-    public static voic main(String[]slakdj){
+    public static void main(String[]slakdj){
+
+	TempConversionWindow a = new TempConversionWindow();
+	a.setVisible(true);
 	
     }
 }
