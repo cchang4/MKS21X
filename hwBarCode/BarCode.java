@@ -10,30 +10,45 @@ public class BarCode implements Comparable{
     //               _zip and _checkDigit are initialized.
     public BarCode(String zip) {
 	try{
+	    if (zip.length()
 	    
+	}catch(RuntimeException re){
+	    System.out.println("Length needs to be 5 and only contain digits");
 	}
 
     }
 
     // postcondition: Creates a copy of a bar code.
-    public BarCode(BarCode x){}
+    public BarCode(BarCode x){
+
+
+    }
 
 
     //post: computes and returns the check sum for _zip
-    private int checkSum(){}
+    private int checkSum(){
+
+
+    }
 
     //postcondition: format zip + check digit + barcode 
     //ex. "084518  |||:::|::|::|::|:|:|::::|||::|:|"      
-    public String toString(){}
+    public String toString(){
+
+    }
 
 
-    public boolean equals(Object other){}
+    public boolean equals(Object other){
+
+    }
     // postcondition: false if the object is not a BarCode, 
     // false if it is a non-matching barcode
     // true when they match.
 
 
-    public int compareTo(Comparable other){}
+    public int compareTo(Comparable other){
+
+    }
     // postcondition: compares the zip + checkdigit 
 
 }
