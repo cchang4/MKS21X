@@ -31,6 +31,12 @@ public class Sorts{
 	    }
 	}
     }
+
+    public static void selection(int[]data){
+	for (int i = 0; i < data.length - 1; i++){
+	    
+	
+    }
 		
 }
 	    
