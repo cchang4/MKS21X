@@ -27,6 +27,8 @@ public class Sorts{
 		    data[s - 1] = storedValue;
 		    //change previous index's value to current index's value
 		    //previous index has smaller number now
+		    
+		    printArray(data);
 		}
 	    }
 	}
@@ -37,7 +39,7 @@ public class Sorts{
 
     */
     
-    public static void selection(int[]data){
+    public static void selectionSort(int[]data){
 	int index = 0;
 	for (int i = 0; i < data.length - 1; i++){
 	    for (int s = i + 1; s < data.length; s++){
