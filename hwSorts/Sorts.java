@@ -32,11 +32,25 @@ public class Sorts{
 	}
     }
 
+     /*help from
+ http://www.java2novice.com/java-sorting-algorithms/selection-sort/#sthash.DaG5n8Dx.dpuf
+
+    */
+    
     public static void selection(int[]data){
+	int index = 0;
 	for (int i = 0; i < data.length - 1; i++){
-	    
-	
+	    for (int s = i + 1; s < data.length; s++){
+
+                if (data[s] < data[index]){
+                    index = s;
+		    int smallerNumber = data[index]; 
+		    data[index] = data[i];
+		    data[i] = smallerNumber;
+		}
+	    }
+        }
     }
-		
+
 }
 	    
